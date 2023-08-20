@@ -1,7 +1,12 @@
 .background {
   background-color: #f4f1eb;
   font-family: "Hanken Grotesk", sans-serif;
-  padding: 0px 10vh;
+  /* padding: 0px 10vh; */
+}
+
+.darker-background {
+  background-color: #efe9e1;
+  padding: 3em;
 }
 
 .hero {
@@ -87,6 +92,12 @@
   list-style: none;
 }
 
+/* Skills */
+
+.height-100vh {
+  height: 100vh;
+}
+
 /* x-sm - small */
 @media (min-width: 0px) and (max-width: 768px) {
   .hero {
@@ -131,6 +142,18 @@
   .experience {
     height: fit-content;
     padding-bottom: 5em;
+  }
+  .skills {
+    height: fit-content;
+    padding-top: 5em;
+  }
+
+  .skills > div > div > h1 {
+    padding-left: 1em;
+  }
+
+  .skills .darker-background {
+    padding-left: 3em;
   }
 }
 
