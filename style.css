@@ -79,7 +79,12 @@
 
 /* Education/Resume */
 .resume {
-  height: 100vh;
+  height: fit-content;
+}
+
+.list {
+  font-weight: 500;
+  list-style: none;
 }
 
 /* x-sm - small */
