@@ -1,0 +1,139 @@
+.background {
+  background-color: #f4f1eb;
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 0px 10vh;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 6vw;
+  margin-bottom: 2%;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 2vw;
+  margin-bottom: 2em;
+}
+
+.button {
+  font-weight: 700;
+  background-color: #2e281f;
+  color: white;
+  border: 0;
+  padding: 0.5em 2em;
+}
+
+.btn:hover {
+  background-color: #c8a69f;
+}
+
+/* About me */
+.about-me {
+  height: 100vh;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4em;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.picture > img {
+  width: 30vw;
+  height: 30vw;
+}
+
+/* Experience */
+.experience {
+  height: fit-content;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.job-year,
+.job-title {
+  font-weight: 600;
+}
+
+.title-smaller {
+  font-weight: 700;
+  font-size: 4vw;
+}
+.employer {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Education/Resume */
+.resume {
+  height: 100vh;
+}
+
+/* x-sm - small */
+@media (min-width: 0px) and (max-width: 768px) {
+  .hero {
+    height: 40vh;
+    text-align: center;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+
+  .title-smaller {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .subtitle {
+    font-size: large;
+    margin-bottom: 1em;
+  }
+
+  .about-me {
+    flex-direction: column-reverse;
+    margin-top: 5em;
+    padding-bottom: 5em;
+    height: fit-content;
+  }
+
+  .about-me-text {
+    text-align: center;
+    padding: 0;
+  }
+
+  .picture {
+    flex-direction: row;
+  }
+
+  .img {
+    margin-bottom: 2em;
+  }
+
+  .experience {
+    height: fit-content;
+    padding-bottom: 5em;
+  }
+}
+
+/* @media (min-width: 769px) and (max-width: 992px) {
+  .about-me-text {
+    padding: 0;
+  }
+  /* .title {
+    font-size: 5vw;
+  } */
+/* } */
