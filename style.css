@@ -1,12 +1,11 @@
 .background {
   background-color: #f4f1eb;
   font-family: "Hanken Grotesk", sans-serif;
-  /* padding: 0px 10vh; */
+  padding: 0px 10vh;
 }
 
 .darker-background {
   background-color: #efe9e1;
-  padding: 3em;
 }
 
 .hero {
@@ -95,7 +94,6 @@
 /* Skills */
 
 .skills {
-  min-height: fit-content;
   height: 100vh;
 }
 
@@ -152,14 +150,7 @@
   .skills {
     height: fit-content;
     padding-top: 5em;
-  }
-
-  .skills > div > div > h1 {
-    padding-left: 1em;
-  }
-
-  .skills .darker-background {
-    padding-left: 3em;
+    padding-bottom: 5em;
   }
 
   .contact {
