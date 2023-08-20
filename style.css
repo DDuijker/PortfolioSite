@@ -94,7 +94,14 @@
 
 /* Skills */
 
-.height-100vh {
+.skills {
+  min-height: fit-content;
+  height: 100vh;
+}
+
+/* Contact */
+.contact {
+  min-height: fit-content;
   height: 100vh;
 }
 
@@ -149,11 +156,11 @@
   }
 
   .skills > div > div > h1 {
-    padding-left: 1em;
+    padding-left: 3em;
   }
 
   .skills .darker-background {
-    padding-left: 3em;
+    padding-left: 4em;
   }
 }
 
