@@ -16,7 +16,8 @@
 
 .title {
   font-weight: 800;
-  font-size: 6vw;
+  font-size: 5vw;
+
   margin-bottom: 2%;
 }
 
@@ -74,7 +75,7 @@
 
 .title-smaller {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 .employer {
   font-style: italic;
