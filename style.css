@@ -156,11 +156,16 @@
   }
 
   .skills > div > div > h1 {
-    padding-left: 3em;
+    padding-left: 1em;
   }
 
   .skills .darker-background {
-    padding-left: 4em;
+    padding-left: 3em;
+  }
+
+  .contact {
+    min-height: fit-content;
+    height: 40vh;
   }
 }
 
