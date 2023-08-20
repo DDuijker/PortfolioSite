@@ -101,7 +101,6 @@
 
 /* Contact */
 .contact {
-  /* min-height: fit-content; */
   height: 100vh;
 }
 
@@ -164,16 +163,7 @@
   }
 
   .contact {
-    min-height: fit-content;
-    height: 40vh;
+    height: fit-content;
+    padding-bottom: 5em;
   }
 }
-
-/* @media (min-width: 769px) and (max-width: 992px) {
-  .about-me-text {
-    padding: 0;
-  }
-  /* .title {
-    font-size: 5vw;
-  } */
-/* } */
